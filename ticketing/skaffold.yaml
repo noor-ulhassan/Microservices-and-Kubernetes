@@ -7,7 +7,7 @@ build:
   local:
     push: false
   artifacts:
-    - image: noor/auth
+    - image: rallycoding/auth
       context: auth
       docker:
         dockerfile: Dockerfile
